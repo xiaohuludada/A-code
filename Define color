@@ -1,0 +1,19 @@
+# B-code
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+  enum COLOR
+  {
+      Black,Bule,Yellow,Red  
+  };
+  eunm COLOR x = Red;
+  printf("%d\n",Black);
+  printf("%d\n",Blue);
+  printf("%d\n",Yellow);
+  printf("%d\n",Red);
+  return 0;
+}
