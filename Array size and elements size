@@ -1,0 +1,15 @@
+# B-code
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+  int arr[10] = {0};
+  printf("%d\n",sizeof(arr));
+  int x = 0;
+  x = sizeof(arr) / sizeof(arr[0]);
+  printf("x =  %d\n",x);
+  return 0;
+}
