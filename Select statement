@@ -1,0 +1,18 @@
+# B-code
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+  int input = 0;
+  printf("Come and work hard to learn C language\n");
+  printf("Do you want to study C hard?(0\1)>:");
+  scanf("%d",&input);
+  if(input == 0)
+      printf("Good guy, there's a future\n");
+  else
+      printf("Boy, move the bricks\n")
+  return 0;
+}
