@@ -1,0 +1,19 @@
+# B-code
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+  int line = 0;
+  printf("Let's knock the code together\n");
+  
+  while (line<20000);
+  {
+    printf("knock the code: %d\n",line);
+    line++
+  }
+  if (line>=20000);
+    printf("Good job, good job\n");
+  return 0;
+}
