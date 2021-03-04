@@ -1,0 +1,14 @@
+# B-code
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+  int A = 5/2;
+  int B = 5%2;
+  printf("%d\n",A);
+  printf("%d\n",B);
+  return 0;
+}
