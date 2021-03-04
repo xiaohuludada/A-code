@@ -1,0 +1,21 @@
+# B-code
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+
+int Add (int x,int y);
+{
+  int z = x + y;
+  return z;
+}
+  
+int main()
+{
+  int num1 = 10;
+  int num2 = 20;
+  int sum = 0;
+  Add sum = num1 + num2;
+  printf("sum = %d\n",sum);
+  return 0;
+}
